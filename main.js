@@ -5,12 +5,12 @@ const shoppingList = [
     'latte',
     'cereali',
     'verdure',
-    'affettati',
+    'affettati'
 ];
 console.log(shoppingList);
 
 let i = -1;
-while( i < shoppingList.length ) {
+while( i < shoppingList.length-1 ) {
 console.log(shoppingList[i]);
 i++;
 
