@@ -11,7 +11,7 @@ console.log(shoppingList);
 
 const listContainer = document.getElementById("list");
 let i = 0;
-while( i <= shoppingList.lenght ) {
+while( i <= shoppingList.length ) {
 console.log(shoppingList[i]);
 i++;
 
