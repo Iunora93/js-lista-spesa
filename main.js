@@ -9,10 +9,9 @@ const shoppingList = [
 ];
 console.log(shoppingList);
 
-let i = -1;
-while( i < shoppingList.length-1 ) {
+let i = 0;
+while( i < shoppingList.length ) {
 console.log(shoppingList[i]);
-i++;
 
 const listItem = document.createElement("li");
 listItem.innerHTML = shoppingList[i];
@@ -20,5 +19,6 @@ listItem.innerHTML = shoppingList[i];
 /* inserisco l'elemento appena creato nella lista */
 const listContainer = document.getElementById("list");
 listContainer.append(listItem);
+i++;
 }
   
