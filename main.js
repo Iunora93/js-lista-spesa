@@ -13,11 +13,12 @@ let i = 0;
 while( i < shoppingList.length ) {
 console.log(shoppingList[i]);
 
+/* prendo la classe per crearci l'elemento all'interno  */
+const listContainer = document.getElementById("list");
 const listItem = document.createElement("li");
 listItem.innerHTML = shoppingList[i];
 
 /* inserisco l'elemento appena creato nella lista */
-const listContainer = document.getElementById("list");
 listContainer.append(listItem);
 i++;
 }
